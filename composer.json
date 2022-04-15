@@ -26,14 +26,13 @@
         }
     },
     "require": {
-        "php": "^5.6 || ^7.0",
-        "psr/log": "^1.0"
+        "php": "^5.6 || ^7.0 || ^8.0",
+        "psr/log": "^3.0"
     },
     "require-dev": {
         "behat/behat": "^2.5.5",
-        "monolog/monolog": "^1.22",
+        "monolog/monolog": "^2.0",
         "phpunit/phpunit": "^5.7.20",
-        "satooshi/php-coveralls": "^1.0",
         "symfony/console": "^2.8",
         "symfony/dependency-injection": "^2.8",
         "symfony/finder": "^2.8"
